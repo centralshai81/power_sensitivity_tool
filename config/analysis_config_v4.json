@@ -1,0 +1,88 @@
+{
+  "network_source": "excel",
+  "excel_input_file": "examples/ieee33_simulated_input_with_dg.xlsx",
+  "sn_mva": 10.0,
+  "frequency_hz": 50,
+  "slack_bus": 1,
+  "pq_test_nodes": [
+    6,
+    18,
+    30
+  ],
+  "pv_test_nodes": [
+    14,
+    25,
+    30
+  ],
+  "pv_node_settings": {
+    "14": {
+      "p_mw": 0.3,
+      "vm_pu": 1.0,
+      "q_mvar_min": -0.5,
+      "q_mvar_max": 0.5
+    },
+    "25": {
+      "p_mw": 0.5,
+      "vm_pu": 1.0,
+      "q_mvar_min": -0.6,
+      "q_mvar_max": 0.6
+    },
+    "30": {
+      "p_mw": 0.2,
+      "vm_pu": 0.99,
+      "q_mvar_min": -0.4,
+      "q_mvar_max": 0.4
+    }
+  },
+  "voltage_sag_levels": [
+    0.95,
+    0.9,
+    0.85
+  ],
+  "reactive_disturbance_levels": [
+    -0.3,
+    -0.2,
+    -0.1,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "pq_voltage_sag": {
+    "step_q_mvar": 0.01,
+    "max_iter": 300,
+    "tolerance": 0.0005
+  },
+  "voltage_impact_threshold": 0.005,
+  "output_dir": "results_v4",
+  "quick_test": true,
+  "quick_test_scenarios": [
+    {
+      "network_type": "base",
+      "node_type": "PQ",
+      "target_bus": 18,
+      "disturbance_type": "voltage_sag",
+      "disturbance_value": 0.9
+    },
+    {
+      "network_type": "base",
+      "node_type": "PQ",
+      "target_bus": 18,
+      "disturbance_type": "reactive_variation",
+      "disturbance_value": 0.2
+    },
+    {
+      "network_type": "pv_extended",
+      "node_type": "PV",
+      "target_bus": 25,
+      "disturbance_type": "voltage_sag",
+      "disturbance_value": 0.95
+    },
+    {
+      "network_type": "pv_extended",
+      "node_type": "PV",
+      "target_bus": 25,
+      "disturbance_type": "reactive_variation",
+      "disturbance_value": -0.2
+    }
+  ]
+}

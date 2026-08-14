@@ -1,0 +1,14 @@
+results_v7/
+├── figures/
+│   ├── heatmaps/
+│   ├── scenario_voltage/
+│   ├── scenario_flow/
+│   ├── topology_maps/
+│   ├── rankings/
+│   └── report_summary/
+├── logs/
+├── paper_figures/
+├── reports/
+├── runtime/
+├── scenarios/
+└── tables/

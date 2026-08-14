@@ -1,0 +1,46 @@
+{
+  "pq_test_nodes": [
+    6,
+    30
+  ],
+  "pv_test_nodes": [
+    18,
+    33
+  ],
+  "voltage_sag_levels": [
+    0.95,
+    0.9,
+    0.85
+  ],
+  "reactive_disturbance_levels": [
+    -0.3,
+    -0.2,
+    -0.1,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "pq_voltage_sag": {
+    "step_q_mvar": 0.01,
+    "max_iter": 300,
+    "tolerance": 0.0005
+  },
+  "voltage_impact_threshold": 0.005,
+  "quick_test": false,
+  "quick_test_scenarios": [
+    {
+      "network_type": "base",
+      "node_type": "PQ",
+      "target_bus": 18,
+      "disturbance_type": "voltage_sag",
+      "disturbance_value": 0.9
+    },
+    {
+      "network_type": "base",
+      "node_type": "PQ",
+      "target_bus": 18,
+      "disturbance_type": "reactive_variation",
+      "disturbance_value": 0.2
+    }
+  ]
+}

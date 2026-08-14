@@ -1,0 +1,19 @@
+{
+  "network_source": "excel",
+  "excel_input_file": "data/processed/工程级配电网输入模板_33节点模拟数据.xlsx",
+  "case_file": "data/case33bw.m",
+  "pv_node_settings": {
+    "18": {
+      "p_mw": 0.1,
+      "vm_pu": 1.0,
+      "q_mvar_min": -999.0,
+      "q_mvar_max": 999.0
+    },
+    "33": {
+      "p_mw": 0.05,
+      "vm_pu": 1.0,
+      "q_mvar_min": -999.0,
+      "q_mvar_max": 999.0
+    }
+  }
+}

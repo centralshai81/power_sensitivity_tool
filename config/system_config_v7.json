@@ -1,0 +1,7 @@
+{
+  "project_name": "配电网灵敏度分析平台V7",
+  "output_dir": "results",
+  "sn_mva": 10.0,
+  "frequency_hz": 50,
+  "slack_bus": 1
+}
