@@ -1,0 +1,13 @@
+﻿figure_id,file,description
+Fig1_vv_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig1_vv_heatmap.png,全局电压-电压灵敏度热力图
+Fig2_qv_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig2_qv_heatmap.png,全局无功-电压灵敏度热力图
+Fig3_PQ_voltage_sag_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig3_PQ_voltage_sag_heatmap.png,PQ节点电压暂降灵敏度热力图
+Fig4_PQ_reactive_variation_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig4_PQ_reactive_variation_heatmap.png,PQ节点无功扰动灵敏度热力图
+Fig5_PV_voltage_sag_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig5_PV_voltage_sag_heatmap.png,PV节点电压设定值扰动灵敏度热力图
+Fig6_PV_reactive_variation_heatmap,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig6_PV_reactive_variation_heatmap.png,PV节点无功扰动灵敏度热力图
+Fig7_group_mean_max_delta_v,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig7_group_mean_max_delta_v.png,各场景组平均最大电压偏移对比
+Fig8_group_mean_affected_bus_count,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig8_group_mean_affected_bus_count.png,各场景组平均受影响节点数对比
+Fig9_group_dual_metric,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig9_group_dual_metric.png,各场景组电压影响与受影响节点双指标图
+Fig10_overall_vv_bus_rank,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig10_overall_vv_bus_rank.png,全局电压-电压灵敏度节点排名
+Fig11_overall_qv_bus_rank,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig11_overall_qv_bus_rank.png,全局无功-电压灵敏度节点排名
+Fig12_overall_line_rank,D:\Python\灵敏度\ieee33_sensitivity\results\paper_figures\Fig12_overall_line_rank.png,全局关键线路排名
